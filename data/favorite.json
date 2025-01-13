@@ -2,7 +2,14 @@
   "name": "",
   "id": "",
   "favorite_nhentai": {
-    "doujin": [],
+    "doujin": [
+      {
+        "id": "549788",
+        "cover": "https://t1.nhentai.net/galleries/3193964/thumb.webp",
+        "lang": "ja",
+        "title": "まだまだな関係"
+      }
+    ],
     "artist": [],
     "character": []
   }
