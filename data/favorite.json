@@ -1,7 +1,18 @@
 {
+  "name": "",
+  "id": "",
   "favorite_nhentai": {
-    "doujin": [],
-    "artist": [],
+    "doujin": [
+      {
+        "id": "",
+        "cover": "",
+        "title": "",
+        "lang": ""
+      }
+    ],
+    "artist": [
+      "test"
+    ],
     "character": []
   }
 }
