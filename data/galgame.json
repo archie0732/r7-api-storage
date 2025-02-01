@@ -1,0 +1,11 @@
+{
+  "gal":[{
+    "name":"循環支付",
+    "source":"steam",
+    "voice":true,
+    "cg":"signal",
+    "have":false,
+    "link":"https://store.steampowered.com/app/3143560/_/",
+    "developer":"Shiravune",
+  }]
+}
