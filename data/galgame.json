@@ -8,6 +8,7 @@
     "have":false,
     "link":"https://store.steampowered.com/app/3143560/_/",
     "developer":"Shiravune",
+    "free_to_get":"none"
   },
   {
     "name":"Chronicles of Delights: Isekai Adventure",
@@ -18,5 +19,6 @@
     "have":false,
     "link":"https://store.steampowered.com/app/3214690/Chronicles_of_Delights_Isekai_Adventure/",
     "developer":"aquma",
+    "free_to_get":"none"
   }]
 }
