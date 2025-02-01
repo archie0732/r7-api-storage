@@ -1,12 +1,22 @@
 {
   "gal":[{
     "name":"循環支付",
-    "source":5,
+    "score":null,
     "source":"steam",
     "voice":true,
     "cg":"signal",
     "have":false,
     "link":"https://store.steampowered.com/app/3143560/_/",
     "developer":"Shiravune",
+  },
+  {
+    "name":"Chronicles of Delights: Isekai Adventure",
+    "score":null,
+    "source":"steam",
+    "voice":true,
+    "cg":"dynamic",
+    "have":false,
+    "link":"https://store.steampowered.com/app/3214690/Chronicles_of_Delights_Isekai_Adventure/",
+    "developer":"aquma",
   }]
 }
