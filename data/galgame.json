@@ -1,6 +1,7 @@
 {
   "gal":[{
     "name":"循環支付",
+    "source":5,
     "source":"steam",
     "voice":true,
     "cg":"signal",
