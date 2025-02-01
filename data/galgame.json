@@ -27,7 +27,9 @@
     {
       "name":"To Be or Not to Be",
       "score":8,
+      "cover":"https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2190290/header.jpg",
       "description":"好玩劇情不錯，有聲有動圖，不過有點少",
+      "throught":"內容真的很不錯，故事也蠻不錯\n- 有兩種方法攻略一種是正常的\n- 一種是用藥\n結局會根據你用的方法來產生不同的結局\n不過本作的亮點還是偏向美術與劇情我非常喜歡。\n\n至於澀澀的部分我覺得後期的畫風前期還有正常情況下**有點不同**感覺怪怪的。\n不過整體我還是很喜歡\n\n**推薦給你**",
       "source":"steam",
       "voice":true,
       "cg":"dynamic",
@@ -35,6 +37,20 @@
       "link":"https://store.steampowered.com/app/2190290/To_Be_or_Not_to_Be/",
       "developer":"DSGame",
       "free_to_get_url":"none"
+    },
+    {
+      "name":"出会い電車:始発駅",
+      "cover":"https://img.dlsite.jp/modpub/images2/work/doujin/RJ01298000/RJ01297791_img_main.webp",
+      "score":6,
+      "description":"畫風不錯，不過其他的就很普",
+      "throught":"畫風我很喜歡，不過我覺得東西實在是太少\n1. 圖不會動\n2. 有些地方感應怪怪的\n不過本作`非常的便宜`有興趣還是可以玩看看\n\n**普通**"
+      "source":"dlsite",
+      "voice":true,
+      "cg":"signal",
+      "have":true,
+      "link":"https://www.dlsite.com/maniax/work/=/product_id/RJ01297791.html",
+      "developer":"貓語",
+      "free_to_get_url":"https://www.acggw.me/31895.html"  
     }
   ]
 }
