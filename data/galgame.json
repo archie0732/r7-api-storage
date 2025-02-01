@@ -1,29 +1,6 @@
 {
-  "gal_not_yet":[{
-    "name":"循環支付",
-    "score":null,
-    "description":"",
-    "source":"steam",
-    "voice":true,
-    "cg":"signal",
-    "have":false,
-    "link":"https://store.steampowered.com/app/3143560/_/",
-    "developer":"Shiravune",
-    "free_to_get_url":"none"
-  },
-  {
-    "name":"Chronicles of Delights: Isekai Adventure",
-    "score":null,
-    "description":"",
-    "source":"steam",
-    "voice":true,
-    "cg":"dynamic",
-    "have":false,
-    "link":"https://store.steampowered.com/app/3214690/Chronicles_of_Delights_Isekai_Adventure/",
-    "developer":"aquma",
-    "free_to_get_url":"none"
-  }],
-  "played_gal":[
+  
+  "gal_game":[
     {
       "name":"To Be or Not to Be",
       "score":8,
@@ -51,6 +28,47 @@
       "link":"https://www.dlsite.com/maniax/work/=/product_id/RJ01297791.html",
       "developer":"貓語",
       "free_to_get_url":"https://www.acggw.me/31895.html"  
-    }
-  ]
+    },
+    {
+      "name":"リンネのリビア",
+      "cover":"https://ci-en.dlsite.com/creator/22829",
+      "score":null,
+      "description":"",
+      "throught":"",
+      "source":"dlsite",
+      "voice":null,
+      "cg":"none",
+      "have":false,
+      "link":"https://ci-en.dlsite.com/creator/22829/article/1035736",
+      "developer":"テールソフト",
+      "free_to_get_url":"https://www.acggw.me/33195.html"
+    },
+    {
+    "name":"循環支付",
+    "cover":"",
+    "score":null,
+    "description":"",
+    "throught":"",
+    "source":"steam",
+    "voice":true,
+    "cg":"signal",
+    "have":false,
+    "link":"https://store.steampowered.com/app/3143560/_/",
+    "developer":"Shiravune",
+    "free_to_get_url":"none"
+  },
+  {
+    "name":"Chronicles of Delights: Isekai Adventure",
+    "cover":"",
+    "score":null,
+    "description":"",
+    "throught":"",
+    "source":"steam",
+    "voice":true,
+    "cg":"dynamic",
+    "have":false,
+    "link":"https://store.steampowered.com/app/3214690/Chronicles_of_Delights_Isekai_Adventure/",
+    "developer":"aquma",
+    "free_to_get_url":"none"  
+  }]
 }
