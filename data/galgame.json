@@ -1,24 +1,40 @@
 {
-  "gal":[{
+  "gal_not_yet":[{
     "name":"循環支付",
     "score":null,
+    "description":"",
     "source":"steam",
     "voice":true,
     "cg":"signal",
     "have":false,
     "link":"https://store.steampowered.com/app/3143560/_/",
     "developer":"Shiravune",
-    "free_to_get":"none"
+    "free_to_get_url":"none"
   },
   {
     "name":"Chronicles of Delights: Isekai Adventure",
     "score":null,
+    "description":"",
     "source":"steam",
     "voice":true,
     "cg":"dynamic",
     "have":false,
     "link":"https://store.steampowered.com/app/3214690/Chronicles_of_Delights_Isekai_Adventure/",
     "developer":"aquma",
-    "free_to_get":"none"
-  }]
+    "free_to_get_url":"none"
+  }],
+  "played_gal":[
+    {
+      "name":"To Be or Not to Be",
+      "score":8,
+      "description":"好玩劇情不錯，有聲有動圖，不過有點少",
+      "source":"steam",
+      "voice":true,
+      "cg":"dynamic",
+      "have":false,
+      "link":"https://store.steampowered.com/app/2190290/To_Be_or_Not_to_Be/",
+      "developer":"DSGame",
+      "free_to_get_url":"none"
+    }
+  ]
 }
