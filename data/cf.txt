@@ -1,4 +1,1 @@
-{
-  "cf_clearance": "your_cf_clearance_value",
-  "user_agent": "your_puppeteer_user_agent"
-}
+
