@@ -1,9 +1,9 @@
-name: Run Puppeteer Real Browser
+name: Get cf_clearance
 
-on: [push, workflow_dispatch]  # 觸發條件：push 或手動執行
+on: [push, pull_request]
 
 jobs:
-  run-puppeteer:
+  run-script:
     runs-on: ubuntu-latest
 
     steps:
@@ -11,16 +11,19 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v3
         with:
-          node-version: 20  # 確保 Node.js 版本與你的開發環境一致
+          node-version: 20
 
       - name: Install Dependencies
+        run: npm install
+
+      - name: Install Missing System Packages
         run: |
           sudo apt-get update
           sudo apt-get install -y \
-          libatk-bridge2.0-0 libgtk-3-0 libnss3 libxss1 \
-          libasound2t64 xvfb dbus-x11 libgbm-dev
+            libatk-bridge2.0-0 libgtk-3-0 libnss3 libxss1 \
+            xvfb dbus-x11 libgbm-dev
 
-      - name: Run Puppeteer Real Browser
+      - name: Run Script
         run: xvfb-run --auto-servernum -- node src/get-cf-clearance.js
