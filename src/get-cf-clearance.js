@@ -32,6 +32,7 @@ async function test() {
 
 
   if(cfClearance){
+    console.log('sucess get token: ',cfClearance.value);
     writeFileSync(resolve('data','cf.txt'),`cf_clearance=${cfClearance.value}`,'utf-8')
   }
   else{
