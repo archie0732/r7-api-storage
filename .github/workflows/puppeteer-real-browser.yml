@@ -1,6 +1,7 @@
 name: Update cf.txt with cf_clearance
 
 on:
+  workflow_dispatch: 
   push:
     branches:
       - main  # 或者你選擇的主分支
