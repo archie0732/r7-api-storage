@@ -1,0 +1,27 @@
+name: Run Puppeteer Real Browser
+
+on: [push, workflow_dispatch]  # 觸發條件：push 或手動執行
+
+jobs:
+  run-puppeteer:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20  # 確保 Node.js 版本與你的開發環境一致
+
+      - name: Install Dependencies
+        run: |
+          npm install
+          sudo apt-get update
+          sudo apt-get install -y \
+            libatk-bridge2.0-0 libgtk-3-0 libnss3 libxss1 libasound2 \
+            xvfb dbus-x11 libgbm-dev
+
+      - name: Run Puppeteer Real Browser
+        run: xvfb-run --auto-servernum -- node src/get-cf-clearance.js
