@@ -31,7 +31,7 @@ async function test() {
 
     // Prepare JSON data
     const jsonData = {
-      cf_clearance: cfClearance.value,
+      cf_clearance: `cf_clearance=${cfClearance.value}`,
       user_agent: userAgent,
     };
 
