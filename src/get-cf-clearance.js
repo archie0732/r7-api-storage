@@ -34,11 +34,23 @@ async function test() {
 
     // 將資料寫入 cf.json
     writeFileSync(resolve("data", "cf.json"), JSON.stringify(jsonData, null, 2), "utf-8");
+    const res = await fetch('https://nhentai.net', headers: {
+      cookie:
+        cfClearance?.value,
+      referer:
+        "https://nhentai.net/",
+      'user-agent':
+        userAgent
+    })
+
+    console.log('fetch test',res.status);
   } else {
     console.log("something wrong");
   }
 
   await page.close();
+
+  
 }
 
 test();
