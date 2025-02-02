@@ -23,4 +23,4 @@ jobs:
           libasound2t64 xvfb dbus-x11 libgbm-dev
 
       - name: Run Puppeteer Real Browser
-        run: xvfb-run --auto-servernum -- node src/get-cf-clearance.ts
+        run: xvfb-run --auto-servernum -- node src/get-cf-clearance.js
