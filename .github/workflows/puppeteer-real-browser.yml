@@ -1,29 +1,36 @@
-name: Get cf_clearance
+name: Update cf.txt with cf_clearance
 
-on: [push, pull_request]
+on:
+  push:
+    branches:
+      - main  # 或者你選擇的主分支
 
 jobs:
-  run-script:
+  update-cf-clearance:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v4
+    - name: Checkout repository
+      uses: actions/checkout@v3
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: 20
+    - name: Set up Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '20.x'
 
-      - name: Install Dependencies
-        run: npm install
+    - name: Install dependencies
+      run: npm install
 
-      - name: Install Missing System Packages
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y \
-            libatk-bridge2.0-0 libgtk-3-0 libnss3 libxss1 \
-            xvfb dbus-x11 libgbm-dev
+    - name: Run Puppeteer script to get cf_clearance
+      run: |
+        xvfb-run --auto-servernum -- node src/get-cf-clearance.js
 
-      - name: Run Script
-        run: xvfb-run --auto-servernum -- node src/get-cf-clearance.js
+    - name: Commit and push changes
+      run: |
+        git config --global user.name "github-actions"
+        git config --global user.email "github-actions@github.com"
+        git add data/cf.txt
+        git commit -m "Update cf_clearance in cf.txt"
+        git push
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
