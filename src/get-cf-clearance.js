@@ -25,7 +25,7 @@ async function test() {
   });
   await page.goto("https://nhentai.net/api/search?query=*", { waitUntil: "networkidle2" });
 
-  await new Promise((resolve) => setTimeout(resolve, 5_000));
+  await new Promise((resolve) => setTimeout(resolve, 15_000));
 
   const cookies = await page.cookies();
   const cfClearance = cookies.find(cookie => cookie.name === "cf_clearance")
