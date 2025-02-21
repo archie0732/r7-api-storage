@@ -8,5 +8,13 @@
       "time":"2025-02-20"
     }
   ],
-  "test":"yanami anna"
+  "test":"yanami anna",
+  "student":[
+    {
+      "id":"archie0732",
+      "name":"archie",
+      "intro":"",
+      "hw":["","","","","","","","","","",""]
+    }
+  ]
 }
