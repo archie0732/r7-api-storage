@@ -1,21 +1,33 @@
 {
-  "annonument":[
+  "annonument": [
     {
-      "title":"test version quention",
-      "in_link":"/hw/hw-test",
-      "out_link":"",
-      "description":"測試題目，有空的可以測試看看有沒有問題",
-      "time":"2025-02-20"
+      "title": "test version quention",
+      "in_link": "/hw/hw-test",
+      "out_link": "",
+      "description": "測試題目，有空的可以測試看看有沒有問題",
+      "time": "2025-02-20"
     }
   ],
-  "test":"yanami anna",
-  "student":[
+  "test": "yanami anna",
+  "student": [
     {
-      "id":"archie0732",
-      "name":"archie",
-      "intro":"",
-      "avatar":"",
-      "hw":["","","","","","","","","","",""]
+      "id": "archie0732",
+      "name": "archie",
+      "intro": "",
+      "avatar": "",
+      "hw": [
+        "1",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
     }
   ]
 }
