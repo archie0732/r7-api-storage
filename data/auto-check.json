@@ -15,12 +15,12 @@
       "time": "2025-03-24"
     }
   ],
-  "hw_list":[
+  "hw_list": [
     {
       "title": "hw-test",
       "link": "/hw/hw-test",
       "id": 0
-    },    
+    },
     {
       "title": "hw 01",
       "link": "/hw/hw1",
@@ -35,7 +35,7 @@
       "avatar": "https://i.pinimg.com/550x/76/54/ef/7654efd01209b2189806bc6cc81ed2c3.jpg",
       "hw": [
         "1",
-        "",
+        "1",
         "",
         "",
         "",
