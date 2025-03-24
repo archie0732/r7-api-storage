@@ -6,6 +6,13 @@
       "out_link": "",
       "description": "測試題目，有空的可以測試看看有沒有問題",
       "time": "2025-02-20"
+    },
+    {
+      "title": "作業1已經公布!",
+      "in_link": "/hw/hw1",
+      "out_link": "",
+      "description": "hw1",
+      "time": "2025-03-24"
     }
   ],
   "hw_list":[
@@ -13,6 +20,11 @@
       "title": "hw-test",
       "link": "/hw/hw-test",
       "id": 0
+    },    
+    {
+      "title": "hw 01",
+      "link": "/hw/hw1",
+      "id": 1
     }
   ],
   "test": "yanami anna",
