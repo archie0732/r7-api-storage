@@ -6,6 +6,6 @@
   "sample_input": "10\n5",
   "sample_output": "請輸入矩形的長度：\n請輸入矩形的寬度：\n矩形的長度為：10\n矩形的寬度為：5\n矩形的面積為：50\n矩形的周長為：30",
   "check_input": "10\n5",
-  "check_output": "矩形的長度為：10\n矩形的寬度為：5\n矩形的面積為：50\n矩形的周長為：30\n",
+  "check_output": "請輸入矩形的長度：\n請輸入矩形的寬度：\n矩形的長度為：10\n矩形的寬度為：5\n矩形的面積為：50\n矩形的周長為：30\n",
   "ans_link": "https://youtu.be/dQw4w9WgXcQ?si=lrdBeiDgmqKYvDSg"
 }
