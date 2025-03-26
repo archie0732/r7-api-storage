@@ -2,6 +2,10 @@
 
 試寫一個程式，依據下表規格建立矩形類別(Rectangle)，程式將要求使用者輸入長與寬，以建立矩形物件，並計算該矩形物件的面積與周長，且將結果予以輸出。
 
+
+## 提示
+- 題目內的`：`為中文輸入法中的`：`而不是英文輸入法的`:`，使用**英文輸入法**系統不會給分
+
 ## 資料成員
 
 長(length)  `公有(public)`
@@ -15,20 +19,15 @@
 
 ## 成員函式
 
-設定長寬(setLengthWidth)
-公有(public)
+設定長寬(setLengthWidth) `公有(public)`
 
-計算面積(calArea)
-公有(public)
+計算面積(calArea) `公有(public)`
 
-計算周長(calPerimeter)
-公有(public)
+計算周長(calPerimeter) `公有(public)`
 
-取得面積(getArea)
-公有(public)
+取得面積(getArea) `公有(public)`
 
-取得周長(getPerimeter)
-公有(public)
+取得周長(getPerimeter) `公有(public)`
 
 
 ### 範例
