@@ -32,6 +32,11 @@
       "title": "hw 01",
       "link": "/hw/hw1",
       "id": 1
+    },
+    {
+      "title": "hw 02",
+      "link": "/hw/hw2",
+      "id": 2
     }
   ],
   "test": "yanami anna",
