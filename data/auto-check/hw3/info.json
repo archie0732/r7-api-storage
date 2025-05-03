@@ -1,1 +1,11 @@
-
+{
+  "name": "hw 3",
+  "id": 3,
+  "time": "2025-05-03",
+  "author": "archie0732",
+  "sample_input": "10\n5",
+  "sample_output": "請輸入矩形的長度：\n請輸入矩形的寬度：\n矩形的長度為：10\n矩形的寬度為：5\n矩形的面積為：50\n矩形的周長為：30",
+  "check_input": "2\naaa_b k 500 1990 z_h\nbbb_a q 200 2025 g\nBookstore fuck\naaa_b\nk\nz_h\n",
+  "check_output": "Welcome to Bookstore fuck!\nHere are our books:\naaa_b by k, 500 NTD, 1990, z_h\nbbb_a by q, 200 NTD, 2025, g\naaa_b by k, 500 NTD, 1990, z_h\n",
+  "ans_link": "https://youtu.be/dQw4w9WgXcQ?si=lrdBeiDgmqKYvDSg"
+}
