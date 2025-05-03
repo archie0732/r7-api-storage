@@ -11,40 +11,59 @@ price (價格, 單位為新台幣)
 year (出版年份, 整數)
 publisher (出版社, 字串)
 
-- 方法：
-get_title() : 取得書名
-get_author() : 取得作者
-get_price() : 取得價格
-get_year() : 取得出版年份
-get_publisher() : 取得出版社
-set_title(string t) : 設定書名
-set_author(string a) : 設定作者
-set_price(int p) : 設定價格
-set_year(int y) : 設定出版年份
-set_publisher(string p) : 設定出版社
+---
+
+**方法:**
+
+
+1. get_title() : 取得書名
+2. get_author() : 取得作者
+3. get_price() : 取得價格
+4. get_year() : 取得出版年份
+5. get_publisher() : 取得出版社
+6. set_title(string t) : 設定書名
+7. set_author(string a) : 設定作者
+8. set_price(int p) : 設定價格
+9. set_year(int y) : 設定出版年份
+10. set_publisher(string p) : 設定出版社
+
+---
 
 接著，設計一個 Bookstore class (書店類別)，包括以下屬性與方法：
 
-- 屬性：
-name (書店名稱, 字串)
-books (書籍清單, 陣列)
+---
 
-方法：
-add_book(Book b) : 新增一本書至書店的書籍清單
-remove_book(Book b) : 從書店的書籍清單中移除一本書
-search_book_by_title(string title) : 搜尋書店的書籍清單，並回傳標題符合 title 的書籍清單
-search_book_by_author(string author) : 搜尋書店的書籍清單，並回傳作者符合 author 的書籍清單
-search_book_by_publisher(string publisher) : 搜尋書店的書籍清單，並回傳出版社符合 publisher 的書籍清單
+**屬性：**
 
-輸入格式：
+1. name (書店名稱, 字串)
+2. books (書籍清單, 陣列)
+
+---
+
+**方法：**
+
+
+1. add_book(Book b) : 新增一本書至書店的書籍清單
+2. remove_book(Book b) : 從書店的書籍清單中移除一本書
+3. search_book_by_title(string title) : 搜尋書店的書籍清單，並回傳標題符合 title 的書籍清單
+4. search_book_by_author(string author) : 搜尋書店的書籍清單，並回傳作者符合 author 的書籍清單
+5. search_book_by_publisher(string publisher) : 搜尋書店的書籍清單，並回傳出版社符合 publisher 的書籍清單
+
+---
+
+### 輸入格式：
+
 第一行輸入一個整數 n (1 <= n <= 100)，表示接下來有 n 筆資料。
 
 接下來 n 行，每行依序輸入書籍的書名、作者、價格、出版年份、出版社，以空格隔開。其中，價格為正整數，出版年份為四位數，書名、作者、出版社為一個不超過 20 個字元的字串，不含空格。
 
 接下來一行輸入書店的名稱，為一個不超過 20 個字元的字串，不含空格。
 
-輸出格式：
+---
+
+### 輸出格式：
 第一行輸出 "Welcome to [書店名稱]!"。
+
 第二行輸出 "Here are our books:"。
 
 接下來輸出書店的書籍清單，每本書的資訊佔一行，格式為 "[書名] by [作者], [價格] NTD, [出版年份], [出版社]"。
