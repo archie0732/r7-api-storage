@@ -62,8 +62,8 @@ search_book_by_publisher(string publisher) : 搜尋書店的書籍清單，並�
 - 輸入
 ```md
 4
-The_Grea_Gatsby F. Scott_Fitzgerald 500 1925 Scribner
-To_Kil_a_Mockingbird Harper_Lee 400 1960 J. B. Lippincott
+The_Grea_Gatsby F.Scott_Fitzgerald 500 1925 Scribner
+To_Kil_a_Mockingbird Harper_Lee 400 1960 J.B.Lippincott
 1984 George_Orwell 300 1949 Secker_&_Warburg
 Brav_New_World Aldous_Huxley 350 1932 Chatto_&_Windus
 Bookstore 123
@@ -73,8 +73,8 @@ Bookstore 123
 ```md
 Welcome to Bookstore 123!
 Here are our books:
-The_Great_Gatsby by F. Scott_Fitzgerald, 500 NTD, 1925, Scribner
-To_Kill_Mockingbird by Harper_Lee, 400 NTD, 1960, J. B. Lippincott
+The_Great_Gatsby by F.Scott_Fitzgerald, 500 NTD, 1925, Scribner
+To_Kill_Mockingbird by Harper_Lee, 400 NTD, 1960, J.B.Lippincott
 1984 by George_Orwell, 300 NTD, 1949, Secker_&_Warburg
 Brave_New_World by Aldous_Huxley, 350 NTD, 1932, Chatto_&_Windus
 Search books:
@@ -83,10 +83,10 @@ Search books:
 ```md
 To_Kill_a_Mockingbird
 Harper_Lee
-J. B. Lippincott
+J.B.Lippincott
 ```
 - 再輸出
 ```md
-To_Kill_a_Mockingbird by Harper_Lee, 400 NTD, 1960, J. B. Lippincott
+To_Kill_a_Mockingbird by Harper_Lee, 400 NTD, 1960, J.B.Lippincott
 ```
 
